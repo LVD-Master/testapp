@@ -1,0 +1,1 @@
+a:1:{s:13:"63ad15e7a08a6";a:12:{s:3:"tag";s:13:"63ad15e7a08a6";s:3:"url";s:43:"http://localhost:8000/index.php?r=gii/index";s:4:"ajax";i:0;s:6:"method";s:3:"GET";s:2:"ip";s:3:"::1";s:4:"time";d:1672287719.413072;s:10:"statusCode";i:404;s:8:"sqlCount";i:3;s:9:"mailCount";i:0;s:9:"mailFiles";a:0:{}s:10:"peakMemory";i:1811768;s:14:"processingTime";d:0.4503059387207031;}}

@@ -1,0 +1,69 @@
+2022-12-29 05:21:59 [::1][1][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "gii/index". in E:\learning\yii2-app\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 E:\learning\yii2-app\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('gii/index', Array)
+#1 E:\learning\yii2-app\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\learning\yii2-app\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\learning\yii2-app\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\learning\yii2-app\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\learning\yii2-app\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2022-12-29 05:21:59 [::1][1][-][info][application] $_GET = [
+    'r' => 'gii/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'SL_G_WPT_TO' => 'en'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+    'advanced-frontend' => '9ei4jv2fsbeghjkl2u30ef78ng'
+    '_identity-frontend' => '7a291461790b6d18f7a505ad6fc5d5db99ad37c3e9ab0bce317c9a6f00ae664aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"m5rvEh-l9_lYWhCKDPcLr7MTxksyHiCr\",2592000]\";}'
+    '_csrf-frontend' => '69cf48098a1087fc07291d14089af24e605dd05c3f36689d59a51d4111148ae5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"lFYk2Kq8EJugELLcZhuXhRljExcc3E9M\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'm5rvEh-l9_lYWhCKDPcLr7MTxksyHiCr'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'E:\\learning\\yii2-app\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54543'
+    'SERVER_SOFTWARE' => 'PHP 7.1.32 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/index.php?r=gii/index'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\learning\\yii2-app\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gii/index'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_SEC_CH_UA' => '\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en,ja;q=0.9,vi;q=0.8,vi-VN;q=0.7,fr-FR;q=0.6,fr;q=0.5,en-US;q=0.4'
+    'HTTP_COOKIE' => 'SL_G_WPT_TO=en; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined; advanced-frontend=9ei4jv2fsbeghjkl2u30ef78ng; _identity-frontend=7a291461790b6d18f7a505ad6fc5d5db99ad37c3e9ab0bce317c9a6f00ae664aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22m5rvEh-l9_lYWhCKDPcLr7MTxksyHiCr%22%2C2592000%5D%22%3B%7D; _csrf-frontend=69cf48098a1087fc07291d14089af24e605dd05c3f36689d59a51d4111148ae5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22lFYk2Kq8EJugELLcZhuXhRljExcc3E9M%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1672287719.4131
+    'REQUEST_TIME' => 1672287719
+]
